@@ -1,0 +1,136 @@
+:root{
+    --bgcolor: red;
+}
+
+.center{
+    height: 100vh;
+    width: 90%;
+    display: inline-block;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background: black;
+    border-radius: 50px;
+    right: 0;
+}
+
+.userImage{
+    border-radius: 200px;
+    width: 80px;
+    height: 80px;
+}
+
+.block__image{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.block__name{
+    display: inline-block;
+    margin-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+/* MAIN SECTION */
+
+.section__header{
+    height: 100vh;
+    width: 100%;
+    /* display: flex;
+    justify-content: flex-end; */
+    background: linear-gradient(
+        var(--bgcolor),
+        black
+    );
+    height: 300px;
+}
+
+.section__main{
+    word-break: break-all;
+    overflow-x: hidden;
+    height: 65.9vh;
+    width: 100%;
+    background-color: black;
+    padding-top: 20px;
+}
+
+.playlist__image{
+    height: 200px;
+}
+
+
+.playlist__title{
+    font-size: 40px;
+}
+
+.block__image__playlist{
+    padding-top: 20px;
+    display: inline-block;
+    padding-left: 30px; 
+}
+
+.block__name__playlist{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.playlist{
+    font-size: 25px;
+}
+
+
+.search__block{
+    margin-left: 40px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.search__block__res{
+    visibility: hidden;
+    word-wrap: break-word;
+    overflow-x:hidden;
+    position: absolute;
+    background: black;
+    width: 336px;
+    height: 300px;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+.button{
+    margin-left: 10px;
+}
+
+.button {
+    text-decoration: none;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.button:hover {
+    background: var(--bgcolor);
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+}
+
+
+.input {
+    height: 50px;
+}

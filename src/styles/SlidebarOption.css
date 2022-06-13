@@ -1,0 +1,19 @@
+.slidebarOption{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    display: flex;
+}
+
+.playlistName{
+    font-size: 15px;
+}
+
+.playlistName:hover{
+    color: white;
+}
+
+.playlistButton{
+    border: medium none;
+    background-image: none; 
+    background: transparent;
+}

@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.main{
+    display: flex;
+}
+
+.player{
+    position: sticky;
+    bottom: 0px;
+}

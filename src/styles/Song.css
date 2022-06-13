@@ -1,0 +1,50 @@
+.track{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.track:hover{
+    background: rgba(95, 95, 95, 0.432);
+}
+
+.order{
+    color: gray;
+    width: 70px;
+}
+
+.img__track{
+    margin-left: 20px;
+    width: 60px;
+}
+
+.track_info{
+    width: 1000px;
+    margin-left: 20px;
+}
+
+.track_title{
+    font-size: 25px;
+}
+
+.track_attists{
+    font-size: 20px;
+    color: gray;
+}
+
+.track_info2{
+    margin-right: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.album_title{
+    color: gray;
+}
+
+.runtime{
+    color: gray;
+}

@@ -1,0 +1,86 @@
+.slidebar{
+    width: 10%;
+    height: 100vh;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border-right: 1px solid white;
+}
+
+.slidebarIcon{
+    height: 20px;
+    width: 20px;
+}
+
+.IconName{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.slidebarButton{
+    border: medium none;
+    background-image: none; 
+    background: transparent;
+    float: left;
+    background-color: transparent;
+    color: gray;
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.slidebarButton:hover{
+    color: white; 
+}
+
+.sidebar__logo {
+    margin-right: auto;
+    object-fit: contain;
+    height: 70px;
+    padding: 10px;
+}
+
+.sidebar__title {
+    color: white;
+    font-size: 20px;
+}
+
+.PlaylistName{
+    color: gray;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.PlaylistName:hover{
+    color: white;
+}
+
+.playlists{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+
+
+/* .playlistButton{
+    border: medium none;
+    background-image: none; 
+    background: transparent;
+    background-color: transparent;
+    color: gray;
+    display: flex;
+    font-size: 20px;
+    margin-top: 15px;
+    align-items: left;
+    justify-content: left;
+}
+
+.playlistButton:hover{
+    color: white;
+} */

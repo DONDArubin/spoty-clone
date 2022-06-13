@@ -1,0 +1,20 @@
+.track__search{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.track__search:hover{
+    background: rgba(95, 95, 95, 0.432);
+}
+
+.img__track__search{
+    width: 64px;
+    height: 64px;
+}
+
+.track_info__search{
+    display: inline-block;
+}

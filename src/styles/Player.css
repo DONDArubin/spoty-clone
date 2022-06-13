@@ -1,0 +1,21 @@
+.player__img{
+    width: 80px;
+    height: 80px;
+}
+
+.player__info{
+    display: flex;
+    align-items: center; 
+    border: 2px solid black;
+    background: linear-gradient( black,rgb(56, 56, 56));
+}
+
+.player__name{
+    margin-left: 20px;
+}
+
+.player__img__block{
+    width: 80px;
+    height: 80px;
+    border-right: 2px solid black;
+}
